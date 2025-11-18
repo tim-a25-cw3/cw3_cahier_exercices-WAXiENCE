@@ -1,0 +1,29 @@
+
+
+   
+
+
+
+.swiper-pagination{
+    position: static;
+
+    --swiper-pagination-bullet-horizontal-gap: 10px;
+
+    --swiper-pagination-bullet-width: 20px;
+      --swiper-pagination-bullet-height: 20px;
+  margin: 50px 0;
+
+
+      --swiper-pagination-color: var(--color-white);
+      --swiper-pagination-bullet-border-radius: 0;
+      
+    
+
+
+
+}
+
+.swiper-pagination-bullet{
+    transform: rotate(45deg);
+
+}
