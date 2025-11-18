@@ -1,0 +1,34 @@
+.cards{
+        @media(width <= 1024px){
+            display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:
+
+    }
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+    align-items: center;
+
+    @media(width <= $breakpoint-md){
+        grid-template-columns: 1fr;
+
+    }
+
+
+}
+
+
+.card__media{
+
+    aspect-ratio: 595/490;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;  
+    }
+}
